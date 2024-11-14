@@ -9,6 +9,7 @@
 9. git remote add origin git@github.com:NaveenSilvester/Allen.git
 10. git remote -v
 11. git pull 
+12. git pull git@github.com:NaveenSilvester/Allen.git main
 12. git branch --set-upstream-to=origin/main
 13. git pull
 14. git push 
