@@ -1,0 +1,16 @@
+1. Create a directory named "MyAllen" in computer
+2. Start gitbash and navigate into the directory 'MyAllen"
+3. git init
+4. Create a text file named "Instructions.txt" in the directory "MyAllen"
+5. Open the file Instructions.txt and type the content, "This is instructions for the project"
+6. Got to gitbash and type git status
+7. git add Instructions.txt
+8. git commit -m "First Commit"
+9. git remote -v (If no git remote is configured, do the below steps)
+10. Go to your Git hub login and navigate to the repository to which you would like your folder "MyAllen" to connect with.
+11. If you haven't created a repository in Github, do create a new one and then copy the ssh url "git@github.com:NaveenSilvester/Allen.git"
+12. Go to gitbash and type git remote add origin git@github.com:NaveenSilvester/Allen.git
+13. Check the remote directory using command git remote -v
+14. git pull origin main (Always pull first before push)
+15. git push -u origin main (your files will be pushed to remote Github)
+16. Refresh the Git hub repository page and you will be able to see your files uploaded to Github
